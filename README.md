@@ -45,7 +45,10 @@ License and Author
 
 Author:: Thorsten Klein (<cookbooks@perlwizard.de>)
 
-Copyright:: 2013, Opscode, Inc.
+Copyright:: 2013, Thorsten Klein.
+
+This cookbook is greatly influenced (copied) from the [7-zip cookbook](https://github.com/opscode-cookbooks/7-zip)
+written by Opscode
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
