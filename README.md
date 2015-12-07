@@ -36,6 +36,10 @@ Downloads and installs WinDirStat to the location specified by `node[:windirstat
 Changes/Roadmap
 ===============
 
+## 1.0.1:
+
+* fixes invalid `metadata.json` (thanks to kbaltrinic)
+
 ## 0.1.0:
 
 * initial release
