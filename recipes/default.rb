@@ -18,17 +18,17 @@
 # limitations under the License.
 #
 
-if platform?("windows")
+if platform?('windows')
 
-  install_dir = win_friendly_path(node[:windirstat][:home])
+  install_dir = win_friendly_path(node['windirstat']['home'])
 
-  windows_package node[:windirstat][:package_name] do
-    source node[:windirstat][:url]
-    checksum node[:windirstat][:checksum]
+  windows_package node['windirstat']['package_name'] do
+    source node['windirstat']['url']
+    checksum node['windirstat']['checksum']
     options "/S /D=#{install_dir}"
     action :install
   end
-  
+
 else
   Chef::Log.warn('WinDirStat can only be installed on the Windows platform.')
 end

@@ -18,8 +18,8 @@
 # limitations under the License.
 #
 
-default[:windirstat][:url]          = "http://downloads.sourceforge.net/windirstat/windirstat1_1_2_setup.exe"
-default[:windirstat][:checksum]     = "370a27a30ee57247faddeb1f99a83933247e07c8760a07ed82e451e1cb5e5cdd"
-default[:windirstat][:package_name] = "WinDirStat 1.1.2"
+default['windirstat']['url']          = 'http://downloads.sourceforge.net/windirstat/windirstat1_1_2_setup.exe'
+default['windirstat']['checksum']     = '370a27a30ee57247faddeb1f99a83933247e07c8760a07ed82e451e1cb5e5cdd'
+default['windirstat']['package_name'] = 'WinDirStat 1.1.2'
 
-default[:windirstat][:home]    = "#{ENV['SYSTEMDRIVE']}\\WinDirStat"
+default['windirstat']['home'] = "#{ENV['SYSTEMDRIVE']}\\WinDirStat"
