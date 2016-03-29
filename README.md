@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tklein/windirstat-cookbook.png)](https://travis-ci.org/tklein/windirstat-cookbook)
+
 Description
 ===========
 
