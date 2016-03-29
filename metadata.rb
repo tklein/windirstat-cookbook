@@ -1,10 +1,10 @@
 name             'windirstat'
 maintainer       'Thorsten Klein'
 maintainer_email 'cookbooks@perlwizard.de'
-license          "Apache 2.0"
+license          'Apache 2.0'
 description      'Installs/Configures windirstat'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '1.0.1'
-supports         "windows"
+version          '1.0.2'
+supports         'windows'
 
-depends "windows", ">= 1.2.6"
+depends 'windows', '>= 1.2.6'
