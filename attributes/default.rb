@@ -17,8 +17,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-default['windirstat']['url']          = 'http://downloads.sourceforge.net/windirstat/windirstat1_1_2_setup.exe'
+default['windirstat']['url']          = 'http://download01.windirstat.info/wds_current_setup.exe'
 default['windirstat']['checksum']     = '370a27a30ee57247faddeb1f99a83933247e07c8760a07ed82e451e1cb5e5cdd'
 default['windirstat']['package_name'] = 'WinDirStat 1.1.2'
 
