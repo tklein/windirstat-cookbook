@@ -1,0 +1,25 @@
+---
+driver:
+  name: vagrant
+  provider: virtualbox
+
+provisioner:
+  name: chef_zero
+  require_chef_omnibus: true
+  chef_client_path: "c:/opscode/chef/bin/chef-client.bat"
+
+platforms:
+  - name: windows_2012_r2_standard
+    os_type: windows
+    driver_config:
+      box: kensykora/windows_2012_r2_standard
+    driver:
+      communicator: winrm
+      guest: windows
+    transport:
+      name: winrm
+
+suites:
+  - name: default
+    run_list:
+      - recipe[windirstat::default]
