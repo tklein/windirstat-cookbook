@@ -2,15 +2,18 @@
 
 This file is used to list changes made in each version of windirstat.
 
+Changes/Roadmap
+===============
+
+## 1.0.2:
+
+* added unit and integration tests
+* updated default WinDirStat download URL
+
 ## 1.0.1:
 
 * fixes invalid `metadata.json` (thanks to kbaltrinic)
 
 ## 0.1.0:
 
-* Initial release of windirstat
-
-- - -
-Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
-
-The [Github Flavored Markdown page](http://github.github.com/github-flavored-markdown/) describes the differences between markdown on github and standard markdown.
+* initial release

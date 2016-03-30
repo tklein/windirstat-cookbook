@@ -1,3 +1,4 @@
+[![Cookbook Version](http://img.shields.io/cookbook/v/windirstat.svg)](https://supermarket.chef.io/cookbooks/windirstat)
 [![Build Status](https://travis-ci.org/tklein/windirstat-cookbook.png)](https://travis-ci.org/tklein/windirstat-cookbook)
 
 Description
@@ -35,23 +36,12 @@ default
 
 Downloads and installs WinDirStat to the location specified by `node[:windirstat][:home]`.
 
-Changes/Roadmap
-===============
-
-## 1.0.1:
-
-* fixes invalid `metadata.json` (thanks to kbaltrinic)
-
-## 0.1.0:
-
-* initial release
-
 License and Author
 ==================
 
 Author:: Thorsten Klein (<cookbooks@perlwizard.de>)
 
-Copyright:: 2013, Thorsten Klein.
+Copyright:: 2013-2016, Thorsten Klein.
 
 This cookbook is greatly influenced (copied) from the [7-zip cookbook](https://github.com/opscode-cookbooks/7-zip)
 written by Opscode
