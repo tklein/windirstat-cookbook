@@ -26,7 +26,10 @@ Cookbooks
 Attributes
 ==========
 
-* `node[:windirstat][:home]` - location to install WinDirStat files to.  default is `%SYSTEMDRIVE%\WinDirStat`
+* `node[:windirstat][:home]`           - location to install WinDirStat files to.  default is `%SYSTEMDRIVE%\WinDirStat`
+* `node['windirstat']['url']`          - Download URL of the WindirStat installer
+* `node['windirstat']['checksum']`     - Checksum of the installer
+* `node['windirstat']['package_name']` - The package name used in Windows
 
 Usage
 =====
@@ -35,6 +38,16 @@ default
 -------
 
 Downloads and installs WinDirStat to the location specified by `node[:windirstat][:home]`.
+
+Contributing
+============
+
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
+
 
 License and Author
 ==================
